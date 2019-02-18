@@ -54,8 +54,8 @@ void draw() {
   float ppotY = map(pSensors[1],0,1024,0,height);
   
   float hue = map(sensors[2],0,1023,0,360); //pot
-  float sat = map(constrain(sensors[3],0,53),0,100,0,100); //temp
-  float bri = map(sensors[4],0,1024,0,100); //luz
+  float sat = map(constrain(sensors[3],30,60),30,60,0,100); //temp
+  float bri = map(constrain(sensors[4],500,900),500,900,0,100); //luz
 
   miColor = color(hue,sat,bri);
   
