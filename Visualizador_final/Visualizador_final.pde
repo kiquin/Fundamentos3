@@ -1,4 +1,6 @@
-//https://stackoverflow.com/questions/20408388/how-to-filter-fft-data-for-audio-visualisation
+// Este proyecto utiliza el codigo para el A-weighting que se encuentra en la siguiente pregunta de StackOverflow
+// con el fin de que la FFT responda de manera más acorde a la percepción humana
+// https://stackoverflow.com/questions/20408388/how-to-filter-fft-data-for-audio-visualisation
 
 import ddf.minim.analysis.*;
 import ddf.minim.*;
